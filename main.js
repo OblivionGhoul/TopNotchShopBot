@@ -57,7 +57,6 @@ client.on('message', async message => {
         }
         if (confirm) {
             message.delete()
-            return message.channel.send("Stop fucking cussing bitch.")
         }
     }
 });

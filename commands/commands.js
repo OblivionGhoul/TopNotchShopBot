@@ -8,7 +8,7 @@ module.exports = {
     async execute(client, message, args) {
         const moderation = new Discord.MessageEmbed()
             .setTitle('Moderation')
-            .setDescription('My default prefix is [-]. Click the arrows at the bottom to change categories.')
+            .setDescription('My default prefix is [.]. Click the arrows at the bottom to change categories.')
             .addField('Ban', 'Bans a user (ex: -ban @usertag)')
             .addField('Kick', 'Kicks a user (ex: -kick @usertag)')
             .addField('Poll', 'Creates a poll (ex: -poll [#channelname] [Question])')
@@ -23,7 +23,7 @@ module.exports = {
 
         const fun = new Discord.MessageEmbed()
             .setTitle('Fun')
-            .setDescription('My default prefix is [-]. Click the arrows at the bottom to change categories.')
+            .setDescription('My default prefix is [.]. Click the arrows at the bottom to change categories.')
             .addField('Meme', 'Sends a meme in the chat (ex: -meme)')
             .addField('Roast', 'Roasts a user (ex: -roast @usertag)')
             .addField('Ascii', 'Sends cool text (ex: -ascii [text])')
@@ -34,7 +34,7 @@ module.exports = {
 
         const utility = new Discord.MessageEmbed()
             .setTitle('Utility')
-            .setDescription('My default prefix is [-]. Click the arrows at the bottom to change categories.')
+            .setDescription('My default prefix is [.]. Click the arrows at the bottom to change categories.')
             .addField('Cal', 'Calculator (ex: -cal 234+23432)')
             .addField('Info', 'Gets the info of a user (ex: -info @usertag)')
             .addField('Avatar', 'Sends avatar of a user (ex: -avatar)')
@@ -46,7 +46,7 @@ module.exports = {
 
         const music = new Discord.MessageEmbed()
             .setTitle('Music')
-            .setDescription('My default prefix is [-]. Click the arrows at the bottom to change categories.')
+            .setDescription('My default prefix is [.]. Click the arrows at the bottom to change categories.')
             .addField('Play', 'Searches Youtube and plays a song (ex: -p [song name] {Youtube links do not work yet})')
             .addField('Pause', 'Pauses what is playing (ex: -pause)')
             .addField('Resume', 'Resumes what is playing (ex: -resume)')

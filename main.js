@@ -57,6 +57,7 @@ client.on('message', async message => {
         }
         if (confirm) {
             message.delete()
+            message.channel.send('You have been warned for using certain words');
         }
     }
 });

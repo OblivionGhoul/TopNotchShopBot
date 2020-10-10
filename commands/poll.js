@@ -10,7 +10,7 @@ module.exports = {
         const cmd = messageArray[0];
         const args1 = messageArray.slice(1);
 
-        if (cmd === '-poll') {
+        if (cmd === '.poll') {
             let pollChannel = message.mentions.channels.first();
             let pollDescription = args1.slice(1).join(' ');
 

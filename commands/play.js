@@ -69,7 +69,7 @@ module.exports = {
             }
 
             const dispatcher = queue.connection
-                .play(ytdl(song.url))
+                .play(ytdl(song.url, {quality: 'highestaudio', highWaterMark: 1 << 25 }))
                 .on("finish", () => {
                     queue.songs.shift();
                     play(queue.songs[0]);

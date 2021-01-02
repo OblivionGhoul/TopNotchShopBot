@@ -34,7 +34,7 @@ module.exports = {
                 giveawayEnded: (client.config.everyoneMention ? "@everyone\n\n" : "") + "🎊 GIVEAWAY ENDED 🎊",
                 timeRemaining: "Time remaining: **{duration}**",
                 inviteToParticipate: "React with 🎉 to enter",
-                winMessage: "Congratulations {winners}, you won **{prize}**! Please wait for a dm from OblivionGhoul.",
+                winMessage: "Congratulations {winners}, you won **{prize}**! Please wait for a dm from DEEZNUTSTOP.",
                 embedFooter: "Weekly giveaway!",
                 noWinner: "Couldn't determine a winner",
                 hostedBy: "Hosted by {user}",
